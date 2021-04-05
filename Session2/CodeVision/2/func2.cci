@@ -1,0 +1,4 @@
+VERSION:3 SOURCE_TIMESTAMP:5267AEE3
+NODE:I LEVEL:0 LINE:1 "header.h"
+NODE:I LEVEL:0 LINE:2 "func2.h"
+NODE:F LEVEL:0 LINE:4 "func2(unsigned char startpos,int ms_duration)"

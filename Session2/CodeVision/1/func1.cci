@@ -1,0 +1,4 @@
+VERSION:3 SOURCE_TIMESTAMP:5267A957
+NODE:I LEVEL:0 LINE:1 "C:\users\farkoo\My Documents\Az Micro\2\header.h"
+NODE:I LEVEL:0 LINE:2 "C:\users\farkoo\My Documents\Az Micro\2\func1.h"
+NODE:F LEVEL:0 LINE:4 "func1(unsigned char num,unsigned char port,int ms_delay)"

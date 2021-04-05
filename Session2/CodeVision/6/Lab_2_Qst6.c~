@@ -1,0 +1,20 @@
+/*
+ * Lab_2_Qst6.c
+ *
+ * Created: 3/8/2021 12:55:32 AM
+ * Author: farkoo
+ */
+
+#include <header.h>
+
+char array[]={0x3F,0x06,0x5B,0x4F,0x66,0x6D,0x7D,0x07,0x7F,0x6F};    
+
+void main(void)
+{
+    func6();
+while (1)
+    {
+    // Please write your application code here
+
+    }
+}

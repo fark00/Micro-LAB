@@ -1,0 +1,15 @@
+#ifndef __header_INCLUDE__
+#define __header_INCLUDE__
+
+#include <io.h>
+#include <delay.h>
+#include <func4.h>
+
+#define inc 1
+#define dec 0
+#define True 1
+#define False 0
+
+extern char array[]={0x3F,0x06,0x5B,0x4F,0x66,0x6D,0x7D,0x07,0x7F,0x6F};	
+
+#endif

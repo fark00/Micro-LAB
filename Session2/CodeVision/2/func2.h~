@@ -1,0 +1,8 @@
+#ifndef__func2_INCLUDE__
+#define__func2_INCLUDE__
+
+//#include <header.h>
+
+void func2(char startpos, int ms_duration);
+
+#endif
