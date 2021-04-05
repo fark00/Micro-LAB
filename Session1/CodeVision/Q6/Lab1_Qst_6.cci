@@ -1,0 +1,6 @@
+VERSION:3 SOURCE_TIMESTAMP:52618151
+NODE:I LEVEL:0 LINE:8 "c:\cvavr\inc\io.h"
+NODE:I LEVEL:0 LINE:9 "c:\cvavr\inc\delay.h"
+NODE:V LEVEL:0 LINE:12 "array -> RAM:????"
+NODE:F LEVEL:0 LINE:17 "main(void)"
+NODE:F LEVEL:0 LINE:24 "func6(void)"
