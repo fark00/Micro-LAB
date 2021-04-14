@@ -1,0 +1,7 @@
+VERSION:3 SOURCE_TIMESTAMP:526F9DAC
+NODE:M LEVEL:0 LINE:2 "__header_INCLUDE__"
+NODE:I LEVEL:0 LINE:4 "c:\cvavr\inc\io.h"
+NODE:I LEVEL:0 LINE:5 "c:\cvavr\inc\delay.h"
+NODE:I LEVEL:0 LINE:6 "func1.h"
+NODE:I LEVEL:0 LINE:7 "c:\cvavr\inc\mega16a.h"
+NODE:I LEVEL:0 LINE:8 "c:\cvavr\inc\alcd.h"
