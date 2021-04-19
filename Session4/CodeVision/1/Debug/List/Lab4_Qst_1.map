@@ -1,0 +1,45 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+ms                                                                                0x017A       1
+sec                                                                               0x017B       1
+min                                                                               0x017C       1
+hour                                                                              0x017D       1
+flag                                                                              0x017E       1
+ms_str                                                                            0x017F       2
+sec_str                                                                           0x0181       2
+min_str                                                                           0x0183       2
+hour_str                                                                          0x0185       2
+_base_y                                                                           0x0187       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+_lcd_x                                                                            R5           1
+_lcd_y                                                                            R4           1
+_lcd_maxx                                                                         R7           1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x00096      6
+init                                                                              0x0009C     31
+timer_init                                                                        0x000BB     23
+ext_int1_isr                                                                      0x000D2     38
+timer0_ovf_isr                                                                    0x000F8    135
+_lcd_write_nibble_G100                                                            0x0017F     20
+_lcd_write_data                                                                   0x00193     12
+lcd_gotoxy                                                                        0x0019F     13
+lcd_clear                                                                         0x001AC     12
+lcd_putchar                                                                       0x001B8     21
+lcd_puts                                                                          0x001CD     17
+lcd_init                                                                          0x001DE     46
+put_buff_G101                                                                     0x0020C     64
+_print_G101                                                                       0x0024C    308
+sprintf                                                                           0x00380     52
+strlen                                                                            0x003B4     12
+strlenf                                                                           0x003C0     13

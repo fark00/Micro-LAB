@@ -1,0 +1,26 @@
+// External Interrupt 1 service routine
+interrupt [EXT_INT1] void ext_int1_isr(void)
+{
+    // Place your code here
+    if(PINB.4 == 0){
+        // timer start
+        lcd_clear();
+        lcd_puts("start");
+        delay_ms(500);
+    }                 
+    if(PINB == 0){
+        //timer stop      
+        lcd_clear();
+        lcd_puts("stop");
+        delay_ms(500);
+    }
+}
+
+// Timer 0 overflow interrupt service routine
+interrupt [TIM0_OVF] void timer0_ovf_isr(void)
+{
+    // Reinitialize Timer 0 value
+    TCNT0=0xB2;
+    // Place your code here
+
+}

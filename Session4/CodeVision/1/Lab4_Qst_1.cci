@@ -1,0 +1,12 @@
+VERSION:3 SOURCE_TIMESTAMP:527D0F04
+NODE:I LEVEL:0 LINE:24 "header.h"
+NODE:V LEVEL:0 LINE:27 "ms -> RAM:????"
+NODE:V LEVEL:0 LINE:28 "sec -> RAM:????"
+NODE:V LEVEL:0 LINE:29 "min -> RAM:????"
+NODE:V LEVEL:0 LINE:30 "hour -> RAM:????"
+NODE:V LEVEL:0 LINE:31 "flag -> RAM:????"
+NODE:V LEVEL:0 LINE:33 "*ms_str -> RAM:????"
+NODE:V LEVEL:0 LINE:34 "*sec_str -> RAM:????"
+NODE:V LEVEL:0 LINE:35 "*min_str -> RAM:????"
+NODE:V LEVEL:0 LINE:36 "*hour_str -> RAM:????"
+NODE:F LEVEL:0 LINE:38 "main(void)"
