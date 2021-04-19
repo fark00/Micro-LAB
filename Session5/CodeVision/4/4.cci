@@ -1,0 +1,9 @@
+VERSION:3 SOURCE_TIMESTAMP:528E05B7
+NODE:I LEVEL:0 LINE:24 "header.h"
+NODE:V LEVEL:0 LINE:27 "temp_counter -> RAM:????"
+NODE:V LEVEL:0 LINE:28 "rpm_counter -> RAM:????"
+NODE:V LEVEL:0 LINE:29 "direction -> RAM:????"
+NODE:V LEVEL:0 LINE:30 "speed -> RAM:????"
+NODE:V LEVEL:0 LINE:31 "temp_str -> RAM:????"
+NODE:F LEVEL:0 LINE:37 "timer2_ovf_isr(void)"
+NODE:F LEVEL:0 LINE:46 "main(void)"
