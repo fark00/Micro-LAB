@@ -1,0 +1,49 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+rx_buffer                                                                         0x01C0       8
+tx_buffer                                                                         0x01C8       8
+_base_y                                                                           0x01D0       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+a                                                                                 R5           1
+rx_wr_index                                                                       R4           1
+rx_rd_index                                                                       R7           1
+rx_counter                                                                        R6           1
+rx_buffer_overflow                                                                R2.0      1bit
+tx_wr_index                                                                       R9           1
+tx_rd_index                                                                       R8           1
+tx_counter                                                                        R11          1
+_lcd_x                                                                            R10          1
+_lcd_y                                                                            R13          1
+_lcd_maxx                                                                         R12          1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+usart_rx_isr                                                                      0x000B4     31
+getchar_                                                                          0x000D3     19
+usart_tx_isr                                                                      0x000E6     23
+main                                                                              0x000FD     63
+routin1                                                                           0x0013C    135
+routin3                                                                           0x001C3    152
+_lcd_write_nibble_G100                                                            0x0025B     21
+_lcd_write_data                                                                   0x00270     12
+lcd_gotoxy                                                                        0x0027C     13
+lcd_clear                                                                         0x00289     12
+lcd_putchar                                                                       0x00295     21
+lcd_puts                                                                          0x002AA     10
+lcd_init                                                                          0x002B4     45
+putchar                                                                           0x002E1      7
+puts                                                                              0x002E8     14
+put_buff_G101                                                                     0x002F6     64
+_print_G101                                                                       0x00336    308
+sprintf                                                                           0x0046A     52
+strlen                                                                            0x0049E     12
+strlenf                                                                           0x004AA     13

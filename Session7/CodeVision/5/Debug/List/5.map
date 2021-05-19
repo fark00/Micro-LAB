@@ -1,0 +1,53 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+rx_buffer                                                                         0x02A5       8
+tx_buffer                                                                         0x02AD       8
+_base_y                                                                           0x02B5       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+rx_wr_index                                                                       R5           1
+rx_rd_index                                                                       R4           1
+rx_counter                                                                        R7           1
+rx_buffer_overflow                                                                R2.0      1bit
+tx_wr_index                                                                       R6           1
+tx_rd_index                                                                       R9           1
+tx_counter                                                                        R8           1
+_lcd_x                                                                            R11          1
+_lcd_y                                                                            R10          1
+_lcd_maxx                                                                         R13          1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+usart_rx_isr                                                                      0x00195     31
+getchar_                                                                          0x001B4     19
+usart_tx_isr                                                                      0x001C7     23
+putchar_                                                                          0x001DE     27
+main                                                                              0x001F9     78
+init                                                                              0x00247     49
+routin1                                                                           0x00278    135
+routin2                                                                           0x002FF     51
+routin3                                                                           0x00332    153
+routin4                                                                           0x003CB    104
+_lcd_write_nibble_G100                                                            0x00433     21
+_lcd_write_data                                                                   0x00448     13
+lcd_gotoxy                                                                        0x00455     13
+lcd_clear                                                                         0x00462     12
+lcd_putchar                                                                       0x0046E     23
+lcd_puts                                                                          0x00485     11
+lcd_init                                                                          0x00490     46
+getchar                                                                           0x004BE      4
+putchar                                                                           0x004C2      7
+puts                                                                              0x004C9     14
+put_buff_G101                                                                     0x004D7     64
+_print_G101                                                                       0x00517    308
+sprintf                                                                           0x0064B     52
+strlen                                                                            0x0067F     12
+strlenf                                                                           0x0068B     13

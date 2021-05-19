@@ -1,0 +1,7 @@
+VERSION:3 SOURCE_TIMESTAMP:52AB5DC1
+NODE:M LEVEL:0 LINE:2 "__header_INCLUDE__"
+NODE:I LEVEL:0 LINE:4 "C:\cvavr\inc\mega16.h"
+NODE:I LEVEL:0 LINE:5 "C:\cvavr\inc\alcd.h"
+NODE:I LEVEL:0 LINE:6 "C:\cvavr\inc\stdio.h"
+NODE:I LEVEL:0 LINE:7 "init.h"
+NODE:I LEVEL:0 LINE:8 "routin.h"
