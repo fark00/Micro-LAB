@@ -33,6 +33,9 @@ The folder for each session consists of two parts:
 ## [Session7](https://github.com/farkoo/Micro-Lab/tree/master/Session7)
 **UART**
 
+## [Session8](https://github.com/farkoo/Micro-Lab/tree/master/Session8)
+**Graphic LCD and Dot Matrix**
+
 ## Requirements:
 * CodeVision
 * Proteus 8.9 pro
