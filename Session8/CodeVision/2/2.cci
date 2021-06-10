@@ -1,0 +1,7 @@
+VERSION:3 SOURCE_TIMESTAMP:52BA5F1A
+NODE:I LEVEL:0 LINE:24 "C:\cvavr\inc\mega16.h"
+NODE:I LEVEL:0 LINE:27 "C:\cvavr\inc\glcd.h"
+NODE:I LEVEL:0 LINE:31 "C:\cvavr\inc\font5x7.h"
+NODE:C LEVEL:0 LINE:36 "star -> FLASH"
+NODE:F LEVEL:0 LINE:307 "question2(void)"
+NODE:F LEVEL:0 LINE:311 "main(void)"

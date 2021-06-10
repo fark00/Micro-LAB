@@ -6,20 +6,36 @@
 &#128521;	
 &#128522;	
 
-## Session1
+
+The folder for each session consists of two parts:
++ Codes, which are made using codevision
+* Simulate programs using the hex file in proteus
 
 
-## Session2
+## [Session1](https://github.com/farkoo/Micro-Lab/tree/master/Session1)
+**Input and output exercise**
 
+## [Session2](https://github.com/farkoo/Micro-Lab/tree/master/Session2)
+**Work with subroutin**
 
-## Session3
+## [Session3](https://github.com/farkoo/Micro-Lab/tree/master/Session3)
+**Interrupt & Character LCD & Matrix Keypad**
 
+## [Session4](https://github.com/farkoo/Micro-Lab/tree/master/Session4)
+**Timers & LCD Interrupts**
 
-## Session4
+## [Session5](https://github.com/farkoo/Micro-Lab/tree/master/Session5)
+**Stepper Motor & DC Motor**
 
+## [Session6](https://github.com/farkoo/Micro-Lab/tree/master/Session6)
+**Analog to digital converter**
 
-## Session5
+## [Session7](https://github.com/farkoo/Micro-Lab/tree/master/Session7)
+**UART**
 
+## Requirements:
+* CodeVision
+* Proteus 8.9 pro
 
 ## Support
 
@@ -36,6 +52,8 @@ Telegram id:
 ## License
 [MIT](https://github.com/fark00/Micro-Lab/blob/master/LICENSE)
 &#0169; 
-[Farzaneh Koohestani](https://github.com/fark00)
+[Farzaneh Koohestani](https://github.com/farkoo)
+
+
 
 
